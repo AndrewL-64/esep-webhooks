@@ -44,50 +44,6 @@
           }
         }
       }
-    },
-    "net6.0/linux-x64": {
-      "Amazon.Lambda.Core/2.1.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/Amazon.Lambda.Core.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/Amazon.Lambda.Core.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Amazon.Lambda.Serialization.SystemTextJson/2.3.0": {
-        "type": "package",
-        "dependencies": {
-          "Amazon.Lambda.Core": "2.1.0"
-        },
-        "compile": {
-          "lib/net6.0/Amazon.Lambda.Serialization.SystemTextJson.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/Amazon.Lambda.Serialization.SystemTextJson.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Newtonsoft.Json/13.0.1": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        }
-      }
     }
   },
   "libraries": {
@@ -164,11 +120,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Andrew Liu\\Projects\\EsepWebhook\\src\\EsepWebhook\\EsepWebhook.csproj",
+      "projectUniqueName": "c:\\Users\\Andrew Liu\\Projects\\EsepWebhook\\src\\EsepWebhook\\EsepWebhook.csproj",
       "projectName": "EsepWebhook",
-      "projectPath": "C:\\Users\\Andrew Liu\\Projects\\EsepWebhook\\src\\EsepWebhook\\EsepWebhook.csproj",
+      "projectPath": "c:\\Users\\Andrew Liu\\Projects\\EsepWebhook\\src\\EsepWebhook\\EsepWebhook.csproj",
       "packagesPath": "C:\\Users\\Andrew Liu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Andrew Liu\\Projects\\EsepWebhook\\src\\EsepWebhook\\obj\\",
+      "outputPath": "c:\\Users\\Andrew Liu\\Projects\\EsepWebhook\\src\\EsepWebhook\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Andrew Liu\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -221,15 +177,7 @@
         "warn": true,
         "downloadDependencies": [
           {
-            "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
-            "version": "[6.0.10, 6.0.10]"
-          },
-          {
             "name": "Microsoft.NETCore.App.Crossgen2.win-x64",
-            "version": "[6.0.10, 6.0.10]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Runtime.linux-x64",
             "version": "[6.0.10, 6.0.10]"
           }
         ],
@@ -239,11 +187,6 @@
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
-      }
-    },
-    "runtimes": {
-      "linux-x64": {
-        "#import": []
       }
     }
   }
